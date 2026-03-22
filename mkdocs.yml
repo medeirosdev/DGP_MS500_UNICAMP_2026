@@ -19,6 +19,8 @@ theme:
         icon: material/brightness-4
         name: Modo claro
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.top
@@ -27,17 +29,22 @@ theme:
     - content.code.copy
 
 nav:
-  - Início: index.md
-  - Fundamentos:
-    - Visão Geral: fundamentos/index.md
-  - Modelagem:
-    - Visão Geral: modelagem/index.md
-  - Algoritmos:
-    - Visão Geral: algoritmos/index.md
+  - Introdução:
+    - Início: index.md
+    - Fundamentos: introducao/fundamentos.md
+    - Modelagem: introducao/modelagem.md
+    - Algoritmos: introducao/algoritmos.md
+  - Revisão Biologia:
+    - Visão Geral: revisao-biologia/index.md
   - Aplicações:
     - Visão Geral: aplicacoes/index.md
-  - Computacional:
-    - Visão Geral: computacional/index.md
+  - Artigo:
+    - Visão Geral: artigo/index.md
+  - Exercícios:
+    - Visão Geral: exercicios/index.md
+  - Professores:
+    - Carlile Campos Lavor: professores/carlile.md
+    - Michael Souza: professores/michael.md
 
 markdown_extensions:
   - pymdownx.highlight:

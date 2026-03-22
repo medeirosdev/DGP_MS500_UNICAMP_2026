@@ -1,23 +1,18 @@
 # DGP Wiki — MS500 UNICAMP 2026
 
-Bem-vindo à wiki da disciplina **MS500 — Distance Geometry Problem com Aplicações**.
+![Geometria de Distâncias](assets/images/wallwiki.png){ width="600" }
 
-Esta wiki documenta as aulas, conceitos, exercícios e insights da disciplina.
+Bem-vindo à wiki da disciplina **MS500 — Geometria de Distâncias: Teoria e Aplicações**.
 
-## Módulos
+Ministrada pelos professores **Carlile Campos Lavor** (IMECC/UNICAMP) e **Michael Souza**, esta disciplina aborda o Distance Geometry Problem (DGP) com foco em teoria e aplicações computacionais.
 
-| Módulo | Descrição |
-|--------|-----------|
-| [Fundamentos](fundamentos/index.md) | Conceitos básicos de geometria de distâncias |
-| [Modelagem](modelagem/index.md) | Formulações e modelagem do DGP |
-| [Algoritmos](algoritmos/index.md) | Métodos de resolução e algoritmos |
-| [Aplicações](aplicacoes/index.md) | Aplicações em biologia molecular, redes de sensores, etc. |
-| [Computacional](computacional/index.md) | Implementações e experimentos computacionais |
+## Navegação
 
-## Como usar
+Utilize as abas no topo para acessar os conteúdos:
 
-Navegue pelos módulos no menu lateral. Cada página de aula contém:
-
-- **Resumo** — síntese do conteúdo abordado
-- **Exercícios** — problemas propostos e resolvidos
-- **Insights** — observações e conexões importantes
+- **Introdução** — Fundamentos, modelagem e algoritmos do DGP
+- **Revisão Biologia** — Aminoácidos, proteínas e ligações peptídicas
+- **Aplicações** — Aplicações em biologia molecular, NMR, redes de sensores
+- **Artigo** — Análise de artigos de referência
+- **Exercícios** — Problemas propostos e resolvidos
+- **Professores** — Informações sobre os docentes
