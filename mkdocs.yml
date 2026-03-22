@@ -39,6 +39,11 @@ nav:
     - Passeios, Caminhos e Ciclos: revisao-grafos/caminhos.md
     - Teoria Espectral: revisao-grafos/espectral.md
     - Grafos Especiais: revisao-grafos/especiais.md
+  - Revisão GA:
+    - Espaços Vetoriais: revisao-ga/espacos-vetoriais.md
+    - Produtos: revisao-ga/produtos.md
+    - Álgebra Geométrica: revisao-ga/algebra-geometrica.md
+    - Aplicações ao DGP: revisao-ga/aplicacoes-dgp.md
   - Revisão Biologia:
     - Visão Geral: revisao-biologia/index.md
   - Aplicações:
