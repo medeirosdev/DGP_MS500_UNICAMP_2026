@@ -34,6 +34,11 @@ nav:
     - Fundamentos: introducao/fundamentos.md
     - Modelagem: introducao/modelagem.md
     - Algoritmos: introducao/algoritmos.md
+  - Revisão Grafos:
+    - Definições Básicas: revisao-grafos/definicoes.md
+    - Passeios, Caminhos e Ciclos: revisao-grafos/caminhos.md
+    - Teoria Espectral: revisao-grafos/espectral.md
+    - Grafos Especiais: revisao-grafos/especiais.md
   - Revisão Biologia:
     - Visão Geral: revisao-biologia/index.md
   - Aplicações:
