@@ -875,6 +875,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visão Geral
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -891,6 +909,75 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercicios-de-codificacao-dgp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercícios de Codificação: DGP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercícios de Codificação: DGP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercicio-1-matriz-euclidiana-completa-3-times-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercício 1 — Matriz Euclidiana completa \(3 \times 3\)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercicio-2-matriz-euclidiana-incompleta-n-times-n" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercício 2 — Matriz Euclidiana incompleta \(n \times n\)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercicio-3-geracao-de-instancia-e-reconstrucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercício 3 — Geração de instância e reconstrução
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1041,6 +1128,64 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercicios-de-codificacao-dgp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercícios de Codificação: DGP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercícios de Codificação: DGP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercicio-1-matriz-euclidiana-completa-3-times-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercício 1 — Matriz Euclidiana completa \(3 \times 3\)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercicio-2-matriz-euclidiana-incompleta-n-times-n" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercício 2 — Matriz Euclidiana incompleta \(n \times n\)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercicio-3-geracao-de-instancia-e-reconstrucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercício 3 — Geração de instância e reconstrução
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1058,6 +1203,38 @@
 
 <h1 id="exercicios">Exercícios<a class="headerlink" href="#exercicios" title="Permanent link">&para;</a></h1>
 <p>Problemas propostos e resolvidos da disciplina.</p>
+<hr />
+<h2 id="exercicios-de-codificacao-dgp">Exercícios de Codificação: DGP<a class="headerlink" href="#exercicios-de-codificacao-dgp" title="Permanent link">&para;</a></h2>
+<h3 id="exercicio-1-matriz-euclidiana-completa-3-times-3">Exercício 1 — Matriz Euclidiana completa <span class="arithmatex">\(3 \times 3\)</span><a class="headerlink" href="#exercicio-1-matriz-euclidiana-completa-3-times-3" title="Permanent link">&para;</a></h3>
+<p><img alt="Exercício 1" src="../assets/images/ex1.jpeg" /></p>
+<p>Dada a matriz:</p>
+<div class="arithmatex">\[
+D = \begin{bmatrix} 0 &amp; 1 &amp; \sqrt{2} \\ 1 &amp; 0 &amp; 1 \\ \sqrt{2} &amp; 1 &amp; 0 \end{bmatrix}
+\]</div>
+<p>Encontre uma realização <span class="arithmatex">\(x : \{1, 2, 3\} \rightarrow \mathbb{R}^2\)</span> compatível com <span class="arithmatex">\(D\)</span>.</p>
+<p><strong>Sugestão:</strong> fixe <span class="arithmatex">\(x_1 = (0,0)\)</span> e <span class="arithmatex">\(x_2 = (1,0)\)</span> e resolva as equações com <code>scipy.optimize.fsolve</code>.</p>
+<hr />
+<h3 id="exercicio-2-matriz-euclidiana-incompleta-n-times-n">Exercício 2 — Matriz Euclidiana incompleta <span class="arithmatex">\(n \times n\)</span><a class="headerlink" href="#exercicio-2-matriz-euclidiana-incompleta-n-times-n" title="Permanent link">&para;</a></h3>
+<p>Receba uma matriz com entradas desconhecidas como <span class="arithmatex">\(-1\)</span>:</p>
+<div class="arithmatex">\[
+D = \begin{bmatrix} 0 &amp; 1 &amp; -1 &amp; \sqrt{2} \\ 1 &amp; 0 &amp; \sqrt{2} &amp; -1 \\ -1 &amp; \sqrt{2} &amp; 0 &amp; 1 \\ \sqrt{2} &amp; -1 &amp; 1 &amp; 0 \end{bmatrix}
+\]</div>
+<p>Escreva uma função que ignore as entradas <span class="arithmatex">\(-1\)</span> e retorne alguma solução <span class="arithmatex">\(x\)</span> usando <code>fsolve</code>.</p>
+<p><strong>Dica:</strong> utilize <code>lambda</code> para fixar o argumento <span class="arithmatex">\(D\)</span> na função de resíduos.</p>
+<hr />
+<h3 id="exercicio-3-geracao-de-instancia-e-reconstrucao">Exercício 3 — Geração de instância e reconstrução<a class="headerlink" href="#exercicio-3-geracao-de-instancia-e-reconstrucao" title="Permanent link">&para;</a></h3>
+<p><img alt="Exercício 3" src="../assets/images/ex2.png" /></p>
+<p>Escreva um script em Python para gerar uma instância simples de geometria de distâncias e reconstruir os pontos a partir de parte das distâncias.</p>
+<ol>
+<li>Fixe uma semente pseudoaleatória para garantir reprodutibilidade dos resultados</li>
+<li>Gere pontos <span class="arithmatex">\(x_1, \ldots, x_n \in \mathbb{R}^2\)</span>, com <span class="arithmatex">\(x_1 = (0,0)\)</span> e <span class="arithmatex">\(\|x_i - x_{i-1}\| = 1\)</span> para <span class="arithmatex">\(i = 2, \ldots, n\)</span>. Cada <span class="arithmatex">\(x_i\)</span> deve ser escolhido aleatoriamente sobre a circunferência de centro <span class="arithmatex">\(x_{i-1}\)</span> e raio 1</li>
+<li>Construa a lista de distâncias:</li>
+</ol>
+<div class="arithmatex">\[D = \{(i, j, d_{ij}) : 1 \leq i &lt; j \leq n, \ d_{ij} = \|x_i - x_j\|\}\]</div>
+<ol>
+<li>Defina uma matriz incompleta <span class="arithmatex">\(\hat{D}\)</span> mantendo apenas as 80% menores distâncias de <span class="arithmatex">\(D\)</span>, isto é, descarte os valores acima do quantil de ordem 0.8</li>
+<li>Use apenas as distâncias de <span class="arithmatex">\(\hat{D}\)</span> para formular e resolver o sistema de equações não lineares associado</li>
+</ol>
 
 
 
